@@ -7,8 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $phone = htmlspecialchars(trim($_POST['fullPhone']));
         $product = htmlspecialchars(trim($_POST['Product'][0]??''));
         $admin_email = "zerosgastro@gmail.com";
-        $admin_email = "a7medfci2020@gmail.com";
-        
+
         $subject = "New Order zerosgastro.com";
         
         // Validate inputs
